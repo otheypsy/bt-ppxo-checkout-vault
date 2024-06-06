@@ -1,0 +1,38 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css");
+
+@font-face {
+  font-family: "PayPal-Regular";
+  font-display: swap;
+  src: local("pp-sans-small-regular"),
+    url("https://www.paypalobjects.com/digitalassets/c/paypal-ui/fonts/PayPalSansSmall-Regular.woff2")
+      format("woff2"),
+    url("https://www.paypalobjects.com/digitalassets/c/paypal-ui/fonts/PayPalSansSmall-Regular.woff")
+      format("woff"),
+    url("https://www.paypalobjects.com/digitalassets/c/paypal-ui/fonts/PayPalSansSmall-Regular.eot")
+      format("embedded-opentype"),
+    url("https://www.paypalobjects.com/digitalassets/c/paypal-ui/fonts/PayPalSansSmall-Regular.svg")
+      format("svg");
+}
+
+@font-face {
+  font-family: "PayPal-Light";
+  font-display: swap;
+  src: local("pp-sans-big-light"),
+    url("https://www.paypalobjects.com/digitalassets/c/paypal-ui/fonts/PayPalSansBig-Light.woff2")
+      format("woff2"),
+    url("https://www.paypalobjects.com/digitalassets/c/paypal-ui/fonts/PayPalSansBig-Light.woff")
+      format("woff"),
+    url("https://www.paypalobjects.com/digitalassets/c/paypal-ui/fonts/PayPalSansBig-Light.eot")
+      format("embedded-opentype"),
+    url("https://www.paypalobjects.com/digitalassets/c/paypal-ui/fonts/PayPalSansBig-Light.svg")
+      format("svg");
+}
+
+html,
+body {
+  height: 100%;
+  min-height: 100%;
+  font-family: "PayPal-Light", sans-serif;
+  overflow-wrap: break-word;
+}

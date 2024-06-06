@@ -1,0 +1,29 @@
+{
+  "name": "bt-ppxo-checkout-vault",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.js",
+  "dependencies": {
+    "braintree-web": "3.88.1",
+    "graphql": "15.3.0",
+    "graphql-request": "3.2.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-router-dom": "5.2.0",
+    "recoil": "0.7.5",
+    "vite": "4.1.1"
+  },
+  "devDependencies": {
+    "typescript": "3.8.3"
+  },
+  "scripts": {
+    "start": "vite"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
